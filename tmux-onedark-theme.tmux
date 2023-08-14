@@ -32,31 +32,31 @@ setw() {
    tmux set-window-option -gq "$option" "$value"
 }
 
-set "status" "on"
-set "status-justify" "left"
+#set "status" "on"
+#set "status-justify" "left"
 
-set "status-left-length" "100"
-set "status-right-length" "100"
-set "status-right-attr" "none"
+#set "status-left-length" "100"
+#set "status-right-length" "100"
+#set "status-right-attr" "none"
 
-set "message-fg" "$onedark_white"
-set "message-bg" "$onedark_black"
+#set "message-fg" "$onedark_white"
+#set "message-bg" "$onedark_black"
 
-set "message-command-fg" "$onedark_white"
-set "message-command-bg" "$onedark_black"
+#set "message-command-fg" "$onedark_white"
+#set "message-command-bg" "$onedark_black"
 
-set "status-attr" "none"
-set "status-left-attr" "none"
+#set "status-attr" "none"
+#set "status-left-attr" "none"
 
-setw "window-status-fg" "$onedark_black"
-setw "window-status-bg" "$onedark_black"
-setw "window-status-attr" "none"
+#setw "window-status-fg" "$onedark_black"
+#setw "window-status-bg" "$onedark_black"
+#setw "window-status-attr" "none"
 
-setw "window-status-activity-bg" "$onedark_black"
-setw "window-status-activity-fg" "$onedark_black"
-setw "window-status-activity-attr" "none"
+#setw "window-status-activity-bg" "$onedark_black"
+#setw "window-status-activity-fg" "$onedark_black"
+#setw "window-status-activity-attr" "none"
 
-setw "window-status-separator" ""
+#setw "window-status-separator" ""
 
 # set "window-style" "fg=$onedark_white"
 # set "window-active-style" "fg=$onedark_white"
